@@ -89,15 +89,14 @@ Customer Churn project/
 
 ***Tenure-based churn patterns***
 
-[customer churn analysis dashboard screenshot]([url](https://github.com/BharatGautam07/Customer-Churn-Analysis/blob/main/Customer%20Churn%20Analysis%20ss.png))
-
-📈 Key Insights
-Overall churn rate: ~23.6% (116 out of 492 customers)
-(Add 2–3 more specific findings here, e.g. which contract type or internet service has the highest churn rate — pull these from your SQL/dashboard results)
 # How to Reproduce
-**Clone this repo
-Run Churn Dataset cleaning.ipynb to clean the raw data
-Set up a PostgreSQL database and configure credentials as environment variables (not hardcoded)
-Load clean_churn_data.csv into PostgreSQL
-Run the queries in Customer Churn.sql for analysis
-Open Customer Churn Dashboard.pbix in Power BI Desktop to explore the dashboard**
+***Clone this repo***
+***Run Churn Dataset cleaning.ipynb to clean the raw data***
+
+***Set up a PostgreSQL database and configure credentials as environment variables (not hardcoded)***
+
+***Load clean_churn_data.csv into PostgreSQL***
+
+***Run the queries in Customer Churn.sql for analysis***
+
+***Open Customer Churn Dashboard.pbix in Power BI Desktop to explore the dashboard***
