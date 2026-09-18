@@ -41,7 +41,7 @@ Customer Churn project/
 
 ***-Removed duplicate records and standardized inconsistent null representations (N/A, Null, blanks)***
 
-***-leaned and standardized text fields (names, city, state, subscription/contract type) and column names***
+***-Cleaned and standardized text fields (names, city, state, subscription/contract type) and column names***
 
 ***-Filtered invalid records (age outside 18–100, negative charges)***
 
@@ -50,13 +50,14 @@ Customer Churn project/
 ***-Converted last_interaction_date to proper datetime and imputed missing dates***
 
 **Engineered new features:**
-***-customer_value — monthly charges × tenure***
 
-***-tenure_group — binned tenure into ranges (0–12, 13–24, 25–48, 49–72 months)***
+-`stomer_value` — monthly charges × tenure
 
-***-senior_flag — senior vs. adult classification***
+-`enure_group` — binned tenure into ranges (0–12, 13–24, 25–48, 49–72 months)
 
-***-churn_flag — numeric encoding of churn (1 = Yes, 0 = No)***
+-`senior_flag` — senior vs. adult classification
+
+-`churn_flag` — numeric encoding of churn (1 = Yes, 0 = No)
 
 ***-Final null handling (remaining edge cases) done in Power BI's Power Query Editor before loading into the data model***
 
