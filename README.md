@@ -1,6 +1,6 @@
 # Customer Churn Analysis
 
-**An end-to-end customer churn analysis project — from raw data cleaning to interactive dashboarding — built to identify which customer segments are most likely to churn and why.**
+**An end-to-end customer churn analysis project — from raw data cleaning to interactive dashboarding — built to analyze customer churn patterns and identify segments with higher observed churn rates.**
 
 # Overview
 
@@ -68,11 +68,11 @@ Customer Churn project/
 
 ***Churn rate by contract type, internet service, and tenure group***
 
-****Churn by state, payment method, and subscription type***
+***Churn by state, payment method, and subscription type***
 
 ***Average monthly charges and tenure***
 
-****Top 10 highest-value customers***
+***Top 10 highest-value customers***
 
 ***Senior citizen churn behavior***
 
@@ -88,6 +88,10 @@ Customer Churn project/
 ***Revenue and customer value by state***
 
 ***Tenure-based churn patterns***
+
+## Dashboard Preview
+
+![Customer Churn Dashboard](Customer%20Churn%20Analysis%20ss.png)
 
 # How to Reproduce
 ***Clone this repo***
